@@ -40,7 +40,7 @@ namespace MicroRabbit.Banking.API
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Banking Service", Version = "va" });
+                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Banking Service", Version = "v1" });
             });
             services.AddMediatR(typeof(Startup));
             services.AddControllers();
